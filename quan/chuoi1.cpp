@@ -1,11 +1,18 @@
-#include<iostream>
-#include<string>
-using namespace std;
-main ()
+#include<stdio.h>
+#include<string.h>
+main()
 {
-   string sum1 = "kho qua anh Thanh oi";
-   int len;
-   
-   cout << "Khi gap bai kho, em noi : " << sum1;
-   
+    char chuoi[100];
+    int i, n, dem=0;
+    printf("nhap chuoi : ");
+    gets(chuoi);
+    n= strlen(chuoi);
+    for(i=0; i<n; i++)
+    {
+        if(chuoi[i]==32)
+        {
+        dem++;
+        }
+     }
+    printf("co %d khoang trang trong chuoi ", dem);
 }
