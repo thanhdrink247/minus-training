@@ -1,15 +1,15 @@
 #include <stdio.h> 
-void sum(int x, int y) 
+void sum(int m, int n) 
 { 
-x = 30; 
-y = 30;
+m = 30; 
+n = 30;
 } 
 
 main(void) 
 { 
-	int x = 30; 
-	int y = 30;
-	int sum = x + y;
+	int m = 30; 
+	int n = 30;
+	int sum = m + n;
 	printf("sum = %d", sum); 
 	
 } 
